@@ -1,0 +1,27 @@
+.process-list{
+	&__item {
+		font-family: $font-family--Aleo;
+		font-size: 36px;
+		width: 33.3333333%;
+		text-align: center;
+	}
+
+	&__icon {
+		font-size: 72px;
+		display: block;
+		margin-bottom: 35px;
+	}
+
+	&__icon--search {
+		color: #5474fd;
+	}
+
+	&__icon--select {
+		color: #ff6363;
+	}
+
+	&__icon--book {
+		color: #00a2ff;
+	}
+
+}

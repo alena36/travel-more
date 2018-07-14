@@ -1,0 +1,51 @@
+.reviews {
+	background: #2b2d2d url("../img/section-5-bg.jpg") 50% no-repeat;
+	background-size: cover;
+	padding-top: 120px;
+	padding-bottom: 200px;
+	
+	&__section-title {
+		text-align: center;
+		margin-bottom: 90px;
+	}
+
+	&__details {
+		display: flex;
+		position: relative;
+		background-color: #333333;
+		margin-bottom: 30px;
+	}
+
+	&__title {
+		margin: 0;
+		margin-bottom: 50px;
+		font-size: 20px;
+		font-weight: 400;
+		text-transform: uppercase;
+		text-align: left;
+	}
+
+	&__text {
+		padding: 50px 55px 50px 60px;
+	}
+
+	&__blockquote {
+		margin: 0;
+	}
+
+	&__paragraph {
+		position: relative;
+		font-size: 16px;
+		margin: 0;
+		text-indent: 40px;
+		text-align: justify;
+	}
+	
+	&__qoute-icon {
+		position: absolute;
+		color: #5474fd;
+		font-size: 30px;
+		top: -20px;
+		left: -40px;
+	}
+}

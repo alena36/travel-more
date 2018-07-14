@@ -1,0 +1,25 @@
+.main-navigation {
+
+	&__item {
+		margin-left: 50px;
+	}
+
+	&__link {
+		font-family: $font-family--Aleo;
+		font-size: 14px;
+		font-weight: 400;
+		color: #ffffff;
+		text-decoration: none;
+		text-transform: uppercase;
+		
+	&:hover {
+		opacity: 0.6;
+		}
+
+	&:focus {
+			outline: none;
+			color: #ff6363;
+		}
+	}
+	
+}

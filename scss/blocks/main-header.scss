@@ -1,0 +1,32 @@
+.main-header {
+	padding-top: 267px;
+	text-align: center;
+	background: #0575bd url("../img/header-bg.jpg") 50% no-repeat;
+	background-size: cover;
+	
+	&__title {
+		margin: 0;
+		font-size: 48px;
+		font-weight: 700;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+	}
+
+	&__subtitle {
+		font-size: 22px;
+		font-weight: 400;
+		letter-spacing: 0.31em;
+	}
+
+	&__navigation-container {
+		background: #5474fd;
+		margin-top: 130px;
+	}
+
+	&__navigation {
+		display: flex;
+		padding-top: 28px;
+		padding-bottom: 32px;
+		justify-content: space-between;
+	}
+}

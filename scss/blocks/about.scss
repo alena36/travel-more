@@ -1,0 +1,43 @@
+.about {
+	background: #3e3a3a url("../img/section-2-bg.jpg") 50% no-repeat;
+	background-size: cover;
+	
+	&__section-title {
+		margin-bottom: 60px;
+	}
+}
+
+.about-wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 120px 0;
+}  
+
+.about-left, 
+.about-right {
+	width: 50%;
+}
+
+.about-left {
+	padding-right: 52px;
+	padding-top: 85px;
+}
+
+.about-right {
+	display: flex;
+	flex-direction: column;
+	padding-left: 52px;
+}
+
+.photo {
+	width: 75%;
+	
+	&__left {
+		align-self: flex-start;
+		margin-bottom: 5px;
+	}
+
+	&__right {
+		align-self: flex-end;
+	}
+}

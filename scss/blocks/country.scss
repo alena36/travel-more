@@ -1,0 +1,42 @@
+.country--first {
+	background: #a6a0b8 url("../img/section-3-bg.jpg") 50% no-repeat;
+	background-size: cover;
+}
+
+.country--second {
+	background: #c54d49 url("../img/section-4-bg.jpg") 50% no-repeat;
+	background-size: cover;
+}
+
+.country {
+	padding-top: 230px;
+	padding-bottom: 100px;
+	
+	&__box {
+		background-color: rgba(0,0,0,0.6);
+		padding: 50px 30px;
+		width: 45%;
+	}
+
+	&__title,
+	&__subtitle {
+		font-size: 20px;
+		margin: 0;
+		margin-bottom: 30px;
+	}
+
+	&__subtitle {
+		text-transform: uppercase;
+	}
+
+	&__text {
+		font-size: 16px;
+		margin: 0;
+		margin-bottom: 50px;
+	}
+
+	&__box--second {
+		margin-left: auto;
+	}
+
+}
