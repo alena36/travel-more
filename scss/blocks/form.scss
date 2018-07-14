@@ -2,12 +2,13 @@
 	display: flex;
 	justify-content: center;
 	width: 70%;
-	margin: 0 auto 120px;
+	margin: 0 auto 115px;
 	
 	&__input {
 		box-sizing: border-box;
 		font-size: 14px;
-		letter-spacing: 0.2em;
+		letter-spacing: 0.13em;
+		// letter-spacing: 0.2em;
 		height: 60px;
 		width: 500px;
 		padding: 0;
@@ -25,9 +26,11 @@
 	}
 
 	&__btn {
+		position: relative;
 		height: 60px;
 		width: 148px;
-		padding: 0;
+		padding-top: 7px;
+    	padding-right: 24px;
 		background-color: #5474fd;
 		border: 2px solid #ffffff;
 		color: #ffffff;
@@ -41,5 +44,12 @@
 			outline: none;
 			border: 3px solid #ff6363;
 		}
+	}
+
+	&__icon {
+	    position: absolute;
+	    right: 12px;
+    	top: 19px;
+		font-size: 22px;
 	}
 }

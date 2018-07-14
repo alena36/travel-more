@@ -15,24 +15,27 @@
 	&__box {
 		background-color: rgba(0,0,0,0.6);
 		padding: 50px 30px;
-		width: 45%;
+		width: 43.3%;
 	}
 
 	&__title,
 	&__subtitle {
-		font-size: 20px;
+		font-size: 19px;
 		margin: 0;
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 	}
 
 	&__subtitle {
 		text-transform: uppercase;
+		font-weight: 400;
 	}
 
 	&__text {
-		font-size: 16px;
+		// font-size: 16px;
+		font-size: 13px;
+    	letter-spacing: 0.02em;
 		margin: 0;
-		margin-bottom: 50px;
+		margin-bottom: 40px;
 	}
 
 	&__box--second {

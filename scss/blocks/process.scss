@@ -1,7 +1,13 @@
 .process {
+	padding-top: 102px;
+    padding-bottom: 118px;
 	background-color: #333333;
-	padding-top: 100px;
-	padding-bottom: 120px;
+	
+	& .container {
+		width: 1140px;
+	    padding-left: 0;
+	    padding-right: 0;
+	}
 }
 
 .search {

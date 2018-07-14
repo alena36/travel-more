@@ -3,7 +3,7 @@
 	background-size: cover;
 	
 	&__section-title {
-		margin-bottom: 60px;
+		margin-bottom: 64px;
 	}
 }
 
@@ -15,22 +15,22 @@
 
 .about-left, 
 .about-right {
-	width: 50%;
+	width: 43%;
 }
 
 .about-left {
-	padding-right: 52px;
+	width: 49%;
 	padding-top: 85px;
 }
 
 .about-right {
 	display: flex;
 	flex-direction: column;
-	padding-left: 52px;
+	padding-left: 96px;
 }
 
 .photo {
-	width: 75%;
+	width: 74%;
 	
 	&__left {
 		align-self: flex-start;

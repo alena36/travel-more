@@ -1,5 +1,5 @@
 .main-header {
-	padding-top: 267px;
+	padding-top: 278px;
 	text-align: center;
 	background: #0575bd url("../img/header-bg.jpg") 50% no-repeat;
 	background-size: cover;
@@ -8,25 +8,29 @@
 		margin: 0;
 		font-size: 48px;
 		font-weight: 700;
-		letter-spacing: 0.1em;
+		// letter-spacing: 0.1em;
+		letter-spacing: 0.06em;
 		text-transform: uppercase;
 	}
 
 	&__subtitle {
+		margin-top: 16px;
+		margin-bottom: 44px;
 		font-size: 22px;
 		font-weight: 400;
-		letter-spacing: 0.31em;
+		// letter-spacing: 0.31em;
+		letter-spacing: 0.24em;
 	}
 
 	&__navigation-container {
 		background: #5474fd;
-		margin-top: 130px;
+		margin-top: 131px;
 	}
 
 	&__navigation {
 		display: flex;
 		padding-top: 28px;
-		padding-bottom: 32px;
+		padding-bottom: 25px;
 		justify-content: space-between;
 	}
 }
